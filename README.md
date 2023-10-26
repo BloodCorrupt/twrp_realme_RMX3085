@@ -7,11 +7,11 @@
 |Chipset             |MediaTek MT6785 Helio G95                                     |
 |GPU                 |ARM Mali-G76 MC4                                              |
 |Memory              |4/6GB RAM                                                     |
-|Android Version     |11 to 12 (RUI2 to RUI3)                                               |
+|Android Version     |11 to 13 (RUI2 to RUI4)                                               |
 |Storage             |64/128GB                                                      |
 
 ## Working Feature
-- Decryption Date
+- Decryption Date (Thanks HowWof!)
 - Vibration/Haptic 
 - Flashing .img/zip
 - ADB Sideload
