@@ -168,6 +168,7 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_NTFS_3G := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
+TW_CUSTOM_BATTERY_PATH :="/sys/class/power_supply/battery/capacity"
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 1200
 TW_NO_SCREEN_BLANK := true
@@ -176,8 +177,8 @@ TW_INCLUDE_LOGICAL := my_product my_engineering my_company my_carrier my_region 
 TARGET_USES_MKE2FS := true
 TW_USE_TOOLBOX:= true
 TW_OZIP_DECRYPT_KEY := 0000
-TW_Y_OFFSET := 50
-TW_H_OFFSET := -50
+#TW_Y_OFFSET := 50
+#TW_H_OFFSET := -50
 
 # resetprop and magiskboot
 TW_INCLUDE_RESETPROP := true
@@ -187,4 +188,4 @@ TW_INCLUDE_REPACKTOOLS := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
-TW_DEVICE_VERSION := RMX3085 by SK
+TW_DEVICE_VERSION := RMX3085
