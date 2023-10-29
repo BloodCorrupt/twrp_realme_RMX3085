@@ -29,7 +29,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# Device Information
 	export FOX_ARCH=arm64
 	export FOX_VARIANT="A12.1"
-	export TARGET_DEVICE_ALT="RMX3085,RMX3085.ossi,qssi,oppo6785,RMX3085L1"
+	export TARGET_DEVICE_ALT="RMX3085,RMX3085.ossi,qssi,oppo6785,RMX3085L1,RMX3085T2,nashc"
 
 	# Funtions
 	export FOX_REPLACE_BUSYBOX_PS=1
@@ -72,9 +72,9 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_PATCH_AVB20=1
 	export OF_NO_SPLASH_CHANGE=0
 	export OF_PATCH_VBMETA_FLAG=2
-        export OF_FLASHLIGHT_ENABLE=1
+    export OF_FLASHLIGHT_ENABLE=1
 	export FOX_INSTALLER_DISABLE_AUTOREBOOT=1
-        export FOX_ENABLE_APP_MANAGER=1
+    export FOX_ENABLE_APP_MANAGER=1
 	
 	# let's see what are our build VARs
 	if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
