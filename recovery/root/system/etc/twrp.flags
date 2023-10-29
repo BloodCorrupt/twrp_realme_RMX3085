@@ -14,7 +14,7 @@
 /vbmeta_system               emmc      /dev/block/by-name/vbmeta_system     flags=display=vbmeta;backup=1;flashimg=1
 
 # Misc Partitions
-/cache                       ext4      /dev/block/by-name/cache             flags=display=cache
+/cache                       ext4      /dev/block/by-name/cache             flags=display=cache;backup=1
 /protect_f                   ext4      /dev/block/by-name/protect1          flags=display=protect_f
 /protect_s                   ext4      /dev/block/by-name/protect2          flags=display=protect_s
 /nvdata                      ext4      /dev/block/by-name/nvdata            flags=display=nvdata
